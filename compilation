@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc nbody.c -lgomp -fopenmp -DNONE -DLINUX -Ofast -s  -o nbody
+
