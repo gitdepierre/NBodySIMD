@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc nbody.c -DNEON -DLINUX  -Ofast -fopenmp -mfpu=neon -s -o nbody
